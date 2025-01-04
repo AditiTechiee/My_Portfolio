@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOX</title>
+    <link rel="stylesheet" href="cb.css">                                                                                                                                              
+</head>
+<body>
+                                                                                                                                                                                                                                                                                                          
+    <div class="chatbox">
+        <div class="chat-header">
+            <img src="img/dpadi.jpg" alt="Author">
+            <h4>Aditi_Shrivastav</h4>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="chatInput" placeholder="Type a message..." onkeypress="sendMessage(event)">
+            <button class="send-btn" onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+
+   <script src="cb.js"> </script>
+
+</body>
+</html>
