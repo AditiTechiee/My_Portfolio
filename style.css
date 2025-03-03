@@ -809,3 +809,48 @@ nav .fa-solid{
     }
 }
 
+/* Basic styling for the chatbot logo */
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0084ff;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 9999;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  #chatbot:hover {
+    background-color: #006bb3;
+  }
+  
+  /* Styling for the icon inside the chat bubble */
+  #chatIcon {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  /* Optional: Animation for the logo */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  #chatbot {
+    animation: bounce 1.5s infinite;
+  }
+  
+
