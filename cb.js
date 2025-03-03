@@ -141,3 +141,11 @@ function scrollToBottom() {
     const chatMessages = document.getElementById("chatMessages");
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
+function scrollToBottom() {
+    const chatMessages = document.getElementById("chatMessages");
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+document.getElementById('chatbot').addEventListener('click', function() {
+    alert('Chatbot is now open!');
+    // Here you can replace it with opening your chatbot UI or any logic you need.
+});
